@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>popUpLayer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		html,body
+		{
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			background: #0a0;
+		}
+		.popBg
+		{
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity: .5;
+			display: block;
+			overflow: hidden;
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1000;
+		}
+
+		.pop
+		{
+			width: 50%;
+			height: 50%;
+			background: #0a0;
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			display: none;
+			z-index: 1100;
+		}
+	</style>
+</head>
+<body>
+<button onclick="">PopUp</button>
+
+asdfasfdasdfsf
+asd
+asf
+sadf
+sadf
+sdaf
+sdf
+sda
+	
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+<p>asdfasdfsdaf</p>
+
+
+<div class="popBg" id="popBg"></div>
+<div class="pop" id="pop">
+	<button onclick="closePop()">close</button>
+</div>
+
+<script>
+	window.onload=function()
+	{
+		document.getElementById('popBg').style.display="block";
+		document.getElementById('pop').style.display="block";
+	}
+
+	function closePop()
+	{
+		document.getElementById('popBg').style.display="none";
+		document.getElementById('pop').style.display="none";
+	}
+</script>
+
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
